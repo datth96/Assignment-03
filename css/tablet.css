@@ -1,0 +1,34 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .text-navbar,
+  .avt-banner {
+    display: none;
+  }
+  #navbar {
+    margin-top: 20px;
+  }
+  .certificate-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .project-content h3 {
+    font-size: 16px;
+  }
+
+  .project-content-flex {
+    font-size: 16px;
+  }
+
+  .project-content-flex .now {
+    font-size: 14px;
+  }
+
+  tr td:first-child {
+    width: 25%;
+  }
+
+  /* Project Charter  */
+  .number {
+    justify-content: start !important;
+  }
+}

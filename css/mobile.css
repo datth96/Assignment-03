@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .text-navbar,
+  .avt-banner {
+    display: none;
+  }
+
+  #navbar a:link,
+  a:visited {
+    display: block;
+    text-align: left;
+    padding: 20px 35px 0;
+  }
+
+  .certificate-2 {
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+    padding-top: 40px;
+  }
+
+  .footer-container {
+    gap: 30px;
+  }
+
+  /* Project Charter  */
+  .number {
+    justify-content: start !important;
+  }
+}
