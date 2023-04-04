@@ -1,7 +1,11 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .text-navbar,
   .avt-banner {
     display: none;
+  }
+
+  .navbar-container {
+    flex-direction: column;
   }
 
   #navbar a:link,
@@ -11,14 +15,38 @@
     padding: 20px 35px 0;
   }
 
+  /* Job Info */
+  #job-info .container {
+    max-width: 100%;
+  }
+
+  /* Certificate */
+  .certificate-flex {
+    flex-direction: column;
+  }
+
   .certificate-2 {
     border-left: none;
     border-top: 2px solid #d6c08d;
     padding-top: 40px;
   }
 
-  .footer-container {
-    gap: 30px;
+  /* Footer */
+
+  .footer-content {
+    gap: 5px;
+  }
+
+  .footer-container-flex {
+    gap: 0;
+  }
+
+  .footer-link {
+    font-size: 12px;
+  }
+
+  .footer-text {
+    font-size: 14px;
   }
 
   /* Project Charter  */
